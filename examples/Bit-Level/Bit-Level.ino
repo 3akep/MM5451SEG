@@ -91,5 +91,20 @@ void loop() {
       delay(300);
     }
   
+  delay(1000);  
+  
+  // Low-level Example #3  
+  segs.clear();  
+  
+  for(int i=1; i <= 5; i++ )   
+  {    
+    cur_bit = 0b10000000;
+    for (int j=0; j<=6; j++)
+    {        
+      bitWrite(cur_bit, j, 1);
+      segs.setCHRtoSEG(i, cur_bit, false, true);
+      delay(200);
+    }
+  }
   
 }
