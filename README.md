@@ -32,4 +32,4 @@ Arduino Library for 7-Segment Display / LED Drivers (MM5451)
 
 ## Additional Materials
 
-- Datasheet for [M5450/M5451](https://github.com/3akep/MM5451SEG/blob/master/M5451B7.pdf).
+- Datasheet for [M5450/M5451](https://github.com/3akep/MM5451SEG/blob/master/M5451B7.pdf)
