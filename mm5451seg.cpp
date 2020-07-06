@@ -54,7 +54,7 @@ byte MM5451SEG::CHRtoBIT(char val) {
     case 2: case '2': myBit = 0b11101101; break;
     case 3: case '3': myBit = 0b10111101; break;
     case 4: case '4': myBit = 0b10011011; break;
-    ase 5: case '5': case 'S': case 's': myBit = 0b10110111; break;
+    case 5: case '5': case 'S': case 's': myBit = 0b10110111; break;
     case 6: case '6': myBit = 0b11110111; break;
     case 7: case '7': myBit = 0b10011100; break;
     case 8: case '8': case 'B': myBit = 0b11111111; break;
